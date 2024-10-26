@@ -18,7 +18,6 @@
  */
 
 #include <sal/config.h>
-
 #include <osl/endian.h>
 #include <utility>
 #include <vcl/svapp.hxx>
@@ -74,7 +73,6 @@
 #include <svx/svdoashp.hxx>
 #include <editeng/tstpitem.hxx>
 #include <editeng/editids.hrc>
-
 #include <editeng/adjustitem.hxx>
 #include <editeng/escapementitem.hxx>
 #include <editeng/colritem.hxx>
@@ -123,7 +121,6 @@
 #include <o3tl/safeint.hxx>
 #include <o3tl/sorted_vector.hxx>
 #include <sal/log.hxx>
-
 #include <algorithm>
 #include <cassert>
 #include <rtl/strbuf.hxx>
@@ -167,7 +164,6 @@ namespace ppt {
     };
 
 } 
-
 
 PowerPointImportParam::PowerPointImportParam( SvStream& rDocStrm ) :
     rDocStream      ( rDocStrm ),
