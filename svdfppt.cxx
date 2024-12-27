@@ -976,7 +976,7 @@ rtl::Reference<SdrObject> SdrEscherImport::ProcessObj( SvStream& rSt, DffObjData
                         case mso_anchorTopCenteredBaseline:
                         case mso_anchorBottomCenteredBaseline:
                         {
-                            // check if it is sensible to use the centered alignment
+                            // checking if it is sensible to use the centered alignment
                             const sal_uInt32 nMask = PPT_TEXTOBJ_FLAGS_PARA_ALIGNMENT_USED_LEFT | PPT_TEXTOBJ_FLAGS_PARA_ALIGNMENT_USED_CENTER | PPT_TEXTOBJ_FLAGS_PARA_ALIGNMENT_USED_RIGHT | PPT_TEXTOBJ_FLAGS_PARA_ALIGNMENT_USED_BLOCK;
                             switch (nTextFlags & nMask)
                             {
