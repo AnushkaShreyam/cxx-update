@@ -7,7 +7,6 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
  * This file incorporates work covered by the following license notice:
- *
  *   Licensed to the Apache Software Foundation (ASF) under one or more
  *   contributor license agreements. See the NOTICE file distributed
  *   with this work for additional information regarding copyright
